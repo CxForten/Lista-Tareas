@@ -1,0 +1,93 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: #04015c;
+}
+
+.container{
+    background-color: #100f0f;
+    margin: 50px auto;
+    height: auto;
+    width: 350px;
+    border: 1px solid black;
+}
+
+.container h1{
+    color: white;
+}
+
+.container-ListaTareas{
+    text-align: center;
+    margin: 150px 0;
+}
+
+.tarea{
+    height: 25px;
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+.btn-agregar{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(47, 158, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px 0 30px 0;
+}
+
+.alert-tareaPendiente{
+    border-radius: 5px;
+    height: 48px;
+    margin: 0 20px;
+    margin-top: 10px;
+    background-color: #0f3d3e;
+    color: #100f0f;
+    font-weight: 600;
+}
+
+.alert-tareaRealizada{
+    border-radius: 5px;
+    height: 48px;
+    margin: 0 20px;
+    margin-top: 10px;
+    background-color: #E2DCCB;
+    color: #100f0f;
+    font-weight: 600;
+}
+
+.nombre-tarea{
+    margin: 10px 0px 0px 10px;
+    float: left;
+}
+
+.icons{
+    margin: 10px 10px 0px 0px;
+    float: right;
+    cursor: pointer;
+}
+
+.fa-circle-check{
+    color: #5a8f7b;
+}
+
+.fa-circle-minus{
+    color: #ffea11;
+}
+
+.fa-arrow-rotate-right{
+    color:#283048
+}
+
+.completada{
+    text-decoration: line-through;
+    color: #808080;
+}
+
